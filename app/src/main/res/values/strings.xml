@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Mihirs College</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/letobold</string>
+    <string name="light" tools:ignore="ReferenceType">@font/letolight</string>
+    <string name="regular" tools:ignore="ReferenceType">@font/letoregular</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="about_collage">The Government Polytechnic Gandhinagar is situated in very proximity of industrial estate that too in the state capital city and the industrial estate declared as Electronics Gujarat Industrial Development Corporation (GIDC) Estate, which is the customer and supplier too.</string>
+
+</resources>

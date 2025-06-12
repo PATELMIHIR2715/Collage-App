@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/text_margin"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5"
+                android:paddingLeft="8dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teachername"
+                    android:text="Patel Mihir"
+                    android:textStyle="bold"
+                    android:textColor="@color/textColour"
+                    android:textSize="@dimen/title_size"
+                    android:fontFamily="@font/letobold"/>
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacherpost"
+                    android:text="Principal"
+                    android:textColor="@color/textColour"
+                    android:textSize="@dimen/title_size"
+                    android:fontFamily="@font/letoregular"/>
+                    <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/teacheremail"
+                    android:text="PatelMihir2712005@gmail.com"
+                    android:textColor="@color/textColour"
+                    android:textSize="@dimen/text_size"
+                    android:fontFamily="@font/letoregular"/>
+
+            </LinearLayout>
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/teacherimage"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginVertical="@dimen/text_margin"
+                android:src="@drawable/avatar"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.5"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
